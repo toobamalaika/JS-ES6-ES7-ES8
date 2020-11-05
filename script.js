@@ -191,3 +191,12 @@ const init = async() => {
 };
 
 init();
+
+ /**** ================================================================
+                        * modules and exporting *
+ =============================================================== ****/
+
+ const printModule = (value) => {
+     console.log(value);
+ }
+ module.exports = printModule;
